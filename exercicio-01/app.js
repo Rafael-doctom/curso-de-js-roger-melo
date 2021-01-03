@@ -1,3 +1,9 @@
+
+
+
+
+
+
 /*
 01 - Neste diretório (exercicio-01), há um index.html vazio.
 
@@ -14,39 +20,43 @@ Faça o seguinte:
 02 - Inicie o seu servidor local e abra o console do browser.
 */
 
-/*
-03 - Para certificar-se que este arquivo realmente está linkado, exiba a frase  
-"JS is Awesome!" em um alert no browser.
 
-Como mencionei durante a aula: não se preocupe em entender 100% o que os comandos  
-"alert" e "console" fazem. Nós falaremos sobre eles mais à frente =)
+// 03 - Para certificar-se que este arquivo realmente está linkado, exiba a frase  
+// "JS is Awesome!" em um alert no browser
 
-Utilize os espaços entre os comentários abaixo para executar os códigos dos 
-exercícios. Inclusive o alert mencionado acima.
-*/
-
-
+// alert("JS is Awesome!")
 
 /*
 04 - Comente o alert que você escreveu acima, utilizando o comentário de uma linha.
 */
+
+// alert("JS is Awesome!")
+
+
 
 /*
 05 - Declare uma const "myBirthYear", que recebe o ano do seu nascimento, com 4  
 dígitos. Ex.: 1930.
 */
 
+const myBirthYear = 2000
 
 
 /*
 06 - Declare uma const "currentYear", que recebe o ano atual, com 4 dígitos.
 */
+const currentYear = 2021
+
 
 
 
 /*
 07 - Exiba as const "myBirthYear" e "currentYear", lado a lado, no console do browser.
 */
+
+
+console.log(`Ano de Nascimento: ${myBirthYear}`)
+console.log(`Ano atual: ${currentYear}`)
 
 
 
@@ -62,6 +72,8 @@ acontece.
 - Exiba a "myAge" no console.
 */
 
+const myAge = currentYear - myBirthYear
+console.log(myAge)
 
 
 /*
@@ -78,7 +90,11 @@ Não se assuste com as crases e os cifrões. Conversaremos mais sobre operaçõe
 matemáticas e strings (textos) em breve =)
 */
 
-// console.log(`Em ${valor1}, estarei com ${valor2} anos.`)
+console.log(`Em ${currentYear + 10}, estarei com ${21 + 10} anos.`)
+
+
+const ten = 10 
+
 
 /*
 10 - Abra o site abaixo no browser e faça o seguinte:
@@ -94,6 +110,6 @@ da const myBirthYear;
 - Cole as duas linhas de código no console, pressione enter, feche o console e  
 veja o que acontece.
 
-document.querySelector('#birthYear').value = SEU_ANO_DE_NASCIMENTO
+document.querySelector('#birthYear').value = myBirthYear
 document.querySelector('.formButton').click()
 */
