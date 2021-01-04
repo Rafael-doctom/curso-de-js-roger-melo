@@ -11,7 +11,6 @@
 */
 
 
-
 /*
 03 - Use o método adequado para adicionar os 3 seguintes itens ao array:
 
@@ -22,7 +21,9 @@
 - Exiba a brazilianFoods no console.
 */
 
+// let brazilianFoods = ['Coxinha', 'null', 'Brigadeiro'];
 
+// console.log(brazilianFoods)
 
 /*
 04 - Comente o console.log acima e:
@@ -32,6 +33,17 @@ array "brazilianFoods" (null) seja substituído por "Pão de Queijo";
 - Exiba apenas o 2º item desse array no console.
 */
 
+// let brazilianFoods = ['Coxinha', 'null', 'Brigadeiro'];
+
+// brazilianFoods[1]= 'Pão de queijo'
+
+// console.log(brazilianFoods[1])
+
+
+
+
+
+
 
 
 /*
@@ -40,6 +52,7 @@ array "brazilianFoods" (null) seja substituído por "Pão de Queijo";
 - Armazene em uma const "foodsInfo" a seguinte string: "Até aqui, o  
 array "brazilianFoods" possui NUMERO_DE_ITENS itens: NOME_DO_ITEM_1,  
 NOME_DO_ITEM_2 e NOME_DO_ITEM_3.";
+
 - Substitua "NUMERO_DE_ITENS" pelo valor correto, mas sem inserir o  
 número diretamente;
 - Substitua as palavras "NOME_DO_ITEM_X" pelas informações corretas,  
@@ -48,18 +61,37 @@ mas sem digitar os nomes das comidas diretamente;
 */
 
 
+// let brazilianFoods = ['Coxinha', 'null', 'Brigadeiro'];
+// brazilianFoods[1]= 'Pão de queijo'
 
-/*
-06 - Comente o console.log acima e:
 
-- Armazene um array com os itens "Chico" e "Zeca" em uma const  
-"maleDogNames";
-- Agora, em uma const "femaleDogNames", armazene um array com os  
-itens "Lilica" e "Matilda";
-- Declare uma let "dogNames" que recebe a junção dos arrays  
-"maleDogNames" e "femaleDogNames";
-- Exiba a "dogNames" no console.
-*/
+// const foodsInfo = `Até aqui, o array "brazilianFoods" possui ${brazilianFoods.length} itens: ${brazilianFoods[0]} , ${brazilianFoods[1]} e ${brazilianFoods[2]}.  `
+
+// console.log(foodsInfo)
+
+
+
+
+// /*
+// 06 - Comente o console.log acima e:
+
+// - Armazene um array com os itens "Chico" e "Zeca" em uma const  
+// "maleDogNames";
+// - Agora, em uma const "femaleDogNames", armazene um array com os  
+// itens "Lilica" e "Matilda";
+// - Declare uma let "dogNames" que recebe a junção dos arrays  
+// "maleDogNames" e "femaleDogNames";
+// - Exiba a "dogNames" no console.
+// */
+
+
+
+// const maleDogNames = ['Chico', 'Zeca']
+// const femaleDogNames = ['Lilica' , 'Matilda']
+
+// let dogNames = maleDogNames +  femaleDogNames
+
+// console.log(dogNames)
 
 
 
@@ -71,6 +103,11 @@ itens "Lilica" e "Matilda";
 - Utilize o método adequado para fazer isso;
 - O resultado deve ser: "nome1, nome2, nome3, nome4".
 */
+
+
+// console.log(dogNames.join(', '))
+
+
 
 
 
@@ -89,6 +126,20 @@ agora é "Lilica".
 
 
 
+
+// const maleDogNames = ['Chico', 'Zeca']
+// const femaleDogNames = ['Lilica' , 'Matilda']
+
+// let dogNames = maleDogNames +  femaleDogNames
+
+// console.log(maleDogNames.length(-1))
+
+// [ERROOOOO]
+
+
+
+
+
 /*
 09 - Comente o console.log acima e:
 
@@ -101,7 +152,7 @@ apenas as letras iniciais dos nomes do array "dogNames";
 - Exiba a "initials" no console.
 */
 
-
+ 
 
 /*
 10 - Comente o console.log acima e:
@@ -110,6 +161,8 @@ apenas as letras iniciais dos nomes do array "dogNames";
 - Utilize o método adequado para isso.
 */
 
+// var nomes = ['RAFAE', 'JOAO', 'GUSTAVO']
+// console.log(`${nomes.toLowerCase()}`)
 
 
 /*
@@ -142,3 +195,7 @@ elevado ao cubo, faça o 2º item do array receber todo o valor que ele
 já tem, mais 4;
 - Agora, o resultado exibido no console deve ser 729.
 */
+let oddNumbers = [3,5,7]
+oddNumbers[1] += 4
+
+console.log(`O valor ao cubo é ${oddNumbers[1] **3}`)
