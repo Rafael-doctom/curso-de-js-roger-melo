@@ -2,7 +2,6 @@
   01 - Suba o seu servidor local e:
 
   - Armazene em uma constante "my3FavoriteTVShows" suas 3 séries favoritas;
-  - Se você não assiste séries, armazene seus 3 filmes favoritos;
   - Armazene em uma constante "sentence" a frase abaixo, modificando "SÉRIE_01,  
     SÉRIE_02 e SÉRIE_03" para as suas séries favoritas;
   - O "e" antes do nome da última série deve ser mantido;
@@ -12,6 +11,13 @@
 
   "Minhas 3 séries favoritas são: SÉRIE_01, SÉRIE_02 e SÉRIE_03."
 */
+ 
+
+// const my3FavoriteTVShows = ['OA', 'Lost', 'The 100'] 
+
+
+// const sentence = `Minhas 3 séries favoritas são: ${my3FavoriteTVShows.join(', ')}.`
+// console.log(sentence)
 
 
 
@@ -21,6 +27,13 @@
   - Exiba no console um boolean indicando se o array de séries que você criou  
     possui 3 itens.
 */
+
+
+
+// console.log(my3FavoriteTVShows.length === 3)
+
+
+
 
 
 
@@ -34,7 +47,17 @@
   - Exiba no console o boolean que a "isRandomTVShowIncluded" recebeu.
 */
 
-const randomTVShow = 'Watchmen'
+// const randomTVShow = 'Watchmen'
+// const isRandomTVShowIncluded = 
+
+// [erro]
+
+
+
+
+
+
+
 
 /*
   04 - Comente o console.log() acima e:
@@ -46,6 +69,12 @@ const randomTVShow = 'Watchmen'
 
   "O tipo de dado que a const "isRandomTVShowIncluded" armazena é: TIPO_DE_DADO."
 */
+
+const typeSentence =  `O tipo de dado que a const "isRandomTVShowIncluded" ${typeof isRandomTVShowIncluded}`
+
+// console.log(typeSentence)
+
+
 
 
 
@@ -63,6 +92,24 @@ const randomTVShow = 'Watchmen'
   caracteres? BOOLEAN."
 */
 
+// const numberString = 39
+
+// const teste = `A string que a "typeSentence" armazena tem mais de ${numberString}? ${typeSentence.length >= 39}. `
+
+
+// console.log(teste)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
@@ -77,6 +124,16 @@ const randomTVShow = 'Watchmen'
 
 const falsyValues = [0, "", false, '', ``, null, undefined, NaN]
 
+
+
+
+
+//  console.log(`Todos os ${falsyValues.length()} itens do array "falsyValues" são falsy. Inclusive o  
+// ${}.  `)
+// [erro]
+
+
+
 /*
   07 - Comente o console.log() acima e:
 
@@ -86,7 +143,7 @@ const falsyValues = [0, "", false, '', ``, null, undefined, NaN]
   - Você sabe por que essa conversão resultou em true?
 */
 
-
+[erro]
 
 /*
   08 - Comente o console.log() acima e:
