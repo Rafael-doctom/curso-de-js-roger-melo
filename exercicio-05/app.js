@@ -55,6 +55,7 @@
 
 // [erro, pois eu havia definido uma variável de inicio]
 // var x = 0
+// for(var x = 0; x<=10; x++){
 //   console.log(`Esta é a ${x} vez que esta frase é exibida no console.`)
 // }
 
