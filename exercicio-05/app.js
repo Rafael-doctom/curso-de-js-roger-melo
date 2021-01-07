@@ -21,6 +21,11 @@
     5
 */
 
+// var inicio = 0
+// while(inicio <= 6){
+//   console.log(inicio)
+//   inicio ++
+// }
 
 
 /*
@@ -28,6 +33,11 @@
 
   - Utilizando um for loop, faça o mesmo que foi pedido no exercício 01.
 */
+
+// var n = 0
+// for(var n = 0; n<=10;n++){
+//   console.log(n)
+// }
 
 
 
@@ -43,6 +53,12 @@
 */
 
 
+// [erro, pois eu havia definido uma variável de inicio]
+// var x = 0
+//   console.log(`Esta é a ${x} vez que esta frase é exibida no console.`)
+// }
+
+
 
 /*
   04 - Comente o loop acima e:
@@ -54,7 +70,17 @@
   - Para ver se deu certo, exiba o upperCaseCities no console.
 */
 
-const cities = ['São Paulo', 'Rio de Janeiro', 'Minas Gerais']
+// const cities = ['São Paulo', 'Rio de Janeiro', 'Minas Gerais']
+// let upperCaseCities = []
+
+// for( let inicio = 0; inicio < cities.length; inicio++){
+//   upperCaseCities.push(cities[inicio].toUpperCase())
+
+// }
+// console.log(upperCaseCities)
+
+
+
 
 /*
   05 - Comente o console.log acima e:
