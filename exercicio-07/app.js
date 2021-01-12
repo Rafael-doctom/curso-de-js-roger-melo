@@ -5,7 +5,7 @@
   - O resultado exibido no console deve ser: false true.
 */
 
-console.log(true, false)
+// console.log(!true, !false)
 
 /*
   02
@@ -16,7 +16,19 @@ console.log(true, false)
   - Se existir, exiba no console a mensagem "Existe um leão no array animals.".
 */
 
-const animals = ['macaco', 'tucano', 'elefante', 'pavão', 'hipopótamo']
+// const animals = ['macaco', 'tucano', 'elefante', 'pavão', 'hipopótamo']
+
+// if(animals.includes('leão')){
+//   console.log('Existe um leão aqui...')
+// }else{
+//   console.log('Não existe um leão aqui...')
+// }
+
+
+
+
+
+
 
 /*
   03
@@ -29,7 +41,25 @@ const animals = ['macaco', 'tucano', 'elefante', 'pavão', 'hipopótamo']
   "A soma ultrapassou 400. Até aqui, o valor atual é RESULTADO_DA_SOMA."
 */
 
-const randomNumbers = [59, 61, 73, 57, 35, 73, 21, 87, 43]
+// const numeros = [59, 61, 73, 57, 35, 73, 21, 87, 43]
+// const limit = 400
+
+// let total = 0
+
+// for (let i = 0; i < numeros.length; i++) {
+//   total += numeros[i]
+//   if (total > limit) {
+//     console.log(`A soma ultrapassou ${limit}. Até aqui, o valor atual é ${total}.`)
+//     break
+//   }
+// }
+
+
+
+
+
+
+
 
 /*
   04
