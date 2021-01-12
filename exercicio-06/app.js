@@ -23,7 +23,20 @@
     "Nem pera nem abacaxi existem no array "fruits".".
 */
 
-const fruits = ['morango', 'banana', 'mamão']
+
+// const fruits = ['morango', 'banana', 'mamão']
+// if(fruits.includes('Abacaxi')){
+//   console.log('Abacaxi existe')
+// }else if(fruits.includes('Pera')){
+//   console.log('Pera existe')
+// }else{
+//   console.log('Não existe nada.')
+// }
+
+
+
+
+
 
 /*
   02
@@ -37,6 +50,18 @@ const fruits = ['morango', 'banana', 'mamão']
   Obs.: tanto a expressão do lado esquerdo quanto a do lado direito do operador  
   lógico precisam ter a constante especificada. Exemplo: hour > x && hour < y.
 */
+
+
+// const horaAtual = 09
+// if(horaAtual=== 06){
+//   console.log('bOM DIA!')
+// }else if(horaAtual=== 12){
+//   console.log('Boa tarde!')
+// }else{
+//   console.log('Boa noite')
+// }
+
+
 
 /*
   03
@@ -52,6 +77,16 @@ const fruits = ['morango', 'banana', 'mamão']
     também está funcionando.
 */
 
+// const idade = '20'
+// if(idade <= 7  || idade>=65){
+//   console.log('Para você, a entrada é grátis')
+// }else[
+//   console.log('[erro] - Você DEVE Pagar.')
+
+
+
+
+
 /*
   04
 
@@ -61,7 +96,15 @@ const fruits = ['morango', 'banana', 'mamão']
   - O resultado deve ser: [34, 46, 90, 25, 11, 89, 76].
 */
 
-const numbers = [7, 92, 34, 46, 90, 25, 11, 3, 89, 76, 99]
+// const numbers = [7, 92, 34, 46, 90, 25, 11, 3, 89, 76, 99]
+
+
+// const inicio = 0;
+// for()
+
+
+
+
 
 /*
   05
