@@ -7,6 +7,17 @@
   - Exiba o resultado no console, sem inserir um console.log() dentro da função.
 */
 
+
+// function soma(a,b){
+//   return a * b
+// }
+
+// console.log(soma(10,10))
+
+
+
+
+
 /*
   02
 
@@ -14,6 +25,13 @@
     **function expression** que retorne o resultado da **divisão** entre esses  
     2 números.
 */
+
+// const total= function (a,b){
+//   return a / b
+// }
+
+// console.log(total(10,150))
+
 
 /*
   03
@@ -28,6 +46,13 @@
   "Esta é a Xª vez que essa string é exibida."
 */
 
+// for(let n = 0; n<5; n++){
+//   let total = n + 1
+//   console.log(`Está é a ${total} ª vez que essa string é exibida.`)
+// }
+
+
+
 /*
   04
 
@@ -40,6 +65,11 @@
 */
 
 const millennialWords = ['lol', 'yolo', 'troll', 'stalkear', 'selfie', 'influencer', 'crush', 'fitness', 'hater', 'bae', 'random', 'kawaii', 'outfit', 'mood', 'fail']
+
+
+
+
+
 
 /*
   05
