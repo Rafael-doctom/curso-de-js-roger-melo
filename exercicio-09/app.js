@@ -13,16 +13,18 @@
     valor no console.
 */
 
-function convertToString (value) {
-  return String(value)
-}
-
 /*
   02
 
   - Crie uma função que retorne a quantidade de caracteres que uma string  
     recebida por parâmetro possui.
 */
+// function string(value){
+//   return value.length
+// }
+
+// console.log(string('Rafael'))
+
 
 /*
   03
@@ -34,19 +36,31 @@ function convertToString (value) {
   "CHOCOTONE E OVO DE PÁSCOA JUNTOS NO MERCADO EM PLENO FEVEREIRO"
 */
 
+// function letras(value){
+//   return value
+// }
+
+// console.log(letras('CHOCOTONE E OVO DE PÁSCOA JUNTOS NO MERCADO EM PLENO FEVEREIRO'.toLocaleLowerCase()))
+
+
+
+
+
 /*
   04
 
   - Crie uma função que recebe 2 parâmetros: um caractere e uma string;
   - Ao ser invocada, a função deve retornar o index do caractere na string.
 */
-
+// [erro]
 /*
   05
 
   - Crie uma função que, ao ser invocada, retorna um boolean indicando se o item  
     passado por argumento existe no array (também passado por argumento).
 */
+c
+
 
 /*
   06
@@ -54,6 +68,17 @@ function convertToString (value) {
   - Crie uma função que retorna a concatenação de 2 arrays, passados como  
     argumentos em sua invocação;
 */
+// const concatenação = function(valor1, valor2){
+//   return valor1, valor
+
+  
+// }
+
+
+// [erro]
+
+
+
 
 /*
   07
@@ -61,6 +86,14 @@ function convertToString (value) {
   - Crie uma função que retorna o array passado como argumento em sua invocação,  
     mas com o último item removido.
 */
+
+// const array = [1,2,5,,6,7]
+// function teste (){
+//   return array
+// }
+
+// console.log(teste.length[2])
+[erro]
 
 /*
   08
