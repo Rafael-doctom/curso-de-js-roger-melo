@@ -34,16 +34,16 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - Exiba a "myFavoriteTom" no console do browser.
 */
 
+// const tom = 'Tom';
+// const firstTom = 'Hanks';
+// const secontTom = 'Cruise';
 
-// const tom = 'Tom'
-// const Hanks = 'FirstTom'
-// const secondTOm = 'Cruise'
-
-
-// const myFavoriteTom = nome + tom
+// const myFavoriteTom = tom + '  ' + firstTom
 // console.log(myFavoriteTom)
 
-// [ERRO]
+
+
+
 
 
 /*
@@ -71,11 +71,9 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - Exiba a "mdn" no console do browser;
 */
 
-// const mozilla = 'Mozilla Developer Network'
-
 
 // const mdn = 'MDN'
-
+// const mozilla = 'Mozilla Developer Network'
 // console.log(mdn)
 
 
@@ -85,9 +83,11 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - Exiba no console do browser a quantidade de caracteres que a constante "programmingLanguage" possui;
 */
 
+// let qtd = 'programmingLanguage'
+// console.log(`a quantidade de letras que a palavra programmingLanguage possuí é ${qtd.length} `)
 
-// var mdn = "programmingLanguage" 
-// console.log(mdn.length)
+
+
 
 
 /*
@@ -99,7 +99,7 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 */
 
 // let randomWord = 'Araponga'
-// console.log(randomWord.length)
+// console.log(randomWord.length -1)
 
 
 
@@ -145,8 +145,6 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 */
 
 // const harryPotterAuthor = 'J.K. Rowling'
-// [ERRO: estudar novamente]
-// gabarito:
 // console.log(harryPotterAuthor.slice(0, 4))
 
 
@@ -164,6 +162,10 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 // var realBestMovie =  'E o Oscar de melhor filme vai para: "Moonlight"!'
 // console.log(realBestMovie)
 
+
+
+
+
 /*
 15 - Comente o console.log acima, e,
 
@@ -177,6 +179,12 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 
 
 
+// resto de 100 / 3
+// let resto = 100 % 5
+// console.log(resto)
+
+
+
 
 /*
 16 - Comente o console.log acima, e,
@@ -186,9 +194,15 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - O valor exibido no console deve ser 7.
 */
 
-// let episodes = 6 + 1
-
+// let episodes = 6 
+// episodes++
 // console.log(episodes)
+
+
+
+
+
+
 
 
 /*
@@ -201,7 +215,7 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 
 
 // let episodes = 7
-// episodes = episodes - 1
+// episodes--
 // console.log(episodes)
 
 
@@ -212,6 +226,14 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - Utilize o operador addition assignment para atualizar o valor da let "episodes" para 10;
 - Após a atribuição, exiba a let "episodes" no console.
 */
+
+let episodes = 6
+// episodes += 4
+// console.log(episodes)
+
+
+
+
 
 /*
 19 - Comente o console.log acima, e,
@@ -256,10 +278,10 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 - Exiba a "newName" no console;
 */
 
-// const name = 'walter white'
-// let newName = 
+const name = 'walter white'
+let newName = 
 
-// [erro]
+[erro]
 
 
 
@@ -276,8 +298,8 @@ Utilize os espaços entre os comentários abaixo para executar os códigos dos e
 */
 
 
-const name = 'walter white'
+// const name = 'walter white'
 
-newName = `${name[0].toUpperCase()}${name.slice(1,6)} ${name[7].toUpperCase()}${name.slice(8)}`
+// newName = `${name[0].toUpperCase()}${name.slice(1,6)} ${name[7].toUpperCase()}${name.slice(8)}`
 
-console.log(newName)
+// console.log(newName)
