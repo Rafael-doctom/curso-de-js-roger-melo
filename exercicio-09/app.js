@@ -13,6 +13,10 @@
     valor no console.
 */
 
+
+
+
+
 /*
   02
 
@@ -93,7 +97,7 @@ c
 // }
 
 // console.log(teste.length[2])
-[erro]
+// [erro]
 
 /*
   08
@@ -113,6 +117,11 @@ c
     foi exibido.
 */
 
+
+// [ERRO]
+
+
+
 /*
   10
 
@@ -123,6 +132,7 @@ c
   - Faça com que a invocação da função descrita no 1º item deste exercício (10)  
     resulte no triplo de 33.
 */
+
 
 /*
   11
