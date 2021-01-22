@@ -9,7 +9,7 @@
 /*
 02 - Armazene um array vazio em uma let "brazilianFoods";
 */
-
+// let brazilianFoods = []
 
 /*
 03 - Use o método adequado para adicionar os 3 seguintes itens ao array:
@@ -195,7 +195,7 @@ elevado ao cubo, faça o 2º item do array receber todo o valor que ele
 já tem, mais 4;
 - Agora, o resultado exibido no console deve ser 729.
 */
-let oddNumbers = [3,5,7]
-oddNumbers[1] += 4
+// let oddNumbers = [3,5,7]
+// oddNumbers[1] += 4
 
-console.log(`O valor ao cubo é ${oddNumbers[1] **3}`)
+// console.log(`O valor ao cubo é ${oddNumbers[1] **3}`)

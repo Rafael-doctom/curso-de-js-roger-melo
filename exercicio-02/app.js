@@ -278,12 +278,9 @@ let episodes = 6
 - Exiba a "newName" no console;
 */
 
-const name = 'walter white'
-let newName = 
+// const name = 'walter white'
 
-[erro]
-
-
+// [erro]
 
 
 
