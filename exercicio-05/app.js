@@ -21,10 +21,10 @@
     5
 */
 
-// var inicio = 0
-// while(inicio <= 5){
-//   console.log(inicio)
-//   inicio ++
+// var total = 0
+// while(total <= 5){
+//   console.log(total)
+//   total ++
 // }
 
 
@@ -73,8 +73,8 @@
 // const cities = ['São Paulo', 'Rio de Janeiro', 'Minas Gerais']
 // let upperCaseCities = []
 
-// for( let inicio = 0; inicio < cities.length; inicio++){
-//   upperCaseCities.push(cities[inicio].toUpperCase())
+// for( let total = 0; total < cities.length; total++){
+//   upperCaseCities.push(cities[total].toUpperCase())
 
 // console.log(upperCaseCities)
 
@@ -108,11 +108,14 @@
   - O console deve exibir true.
 */
 
-const numbers = ['91', '5', '30', '97', '83', '31']
+// const numbers = ['91', '5', '30', '97', '83', '31']
+// var total = 0;
+// for(let i = 0; i < numbers.length; i++ ){
+//   total = total + Number(numbers[i])
 
-for()
+// }
 
-
+// document.write(total === 337)
 
 /*
   07 - Comente o console.log acima.
