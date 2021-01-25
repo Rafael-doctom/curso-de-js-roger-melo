@@ -22,7 +22,7 @@
 */
 
 // var inicio = 0
-// while(inicio <= 6){
+// while(inicio <= 5){
 //   console.log(inicio)
 //   inicio ++
 // }
@@ -35,7 +35,7 @@
 */
 
 // var n = 0
-// for(var n = 0; n<=10;n++){
+// for(var n = 0; n<=5;n++){
 //   console.log(n)
 // }
 
@@ -53,11 +53,10 @@
 */
 
 
-// [erro, pois eu havia definido uma variável de inicio]
-// var x = 0
-// for(var x = 0; x<=10; x++){
-//   console.log(`Esta é a ${x} vez que esta frase é exibida no console.`)
-// }
+// var i = 0 
+// for(var i = 0; i<= 10; i++)
+// console.log(`Esta é a ${i}ª vez que esta frase é exibida no console.`)
+
 
 
 
@@ -77,8 +76,10 @@
 // for( let inicio = 0; inicio < cities.length; inicio++){
 //   upperCaseCities.push(cities[inicio].toUpperCase())
 
-// }
 // console.log(upperCaseCities)
+
+
+
 
 
 
@@ -92,7 +93,11 @@
     <li>João Grilo</li><li>Chicó</li><li>Rosinha</li>
 */
 
-const names = ['João Grilo', 'Chicó', 'Rosinha']
+// const names = ['João Grilo', 'Chicó', 'Rosinha']
+
+// [erro]
+
+
 
 /*
   06 - Comente o console.log acima e:
@@ -104,6 +109,10 @@ const names = ['João Grilo', 'Chicó', 'Rosinha']
 */
 
 const numbers = ['91', '5', '30', '97', '83', '31']
+
+for()
+
+
 
 /*
   07 - Comente o console.log acima.
