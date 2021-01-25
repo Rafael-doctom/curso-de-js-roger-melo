@@ -102,6 +102,7 @@
 // const inicio = 0;
 // for()
 
+// [erro]
 
 
 
@@ -121,6 +122,10 @@
 
 const crazyArray = [true, 869, 'oi', 71, false, 83, '35', true, 397, 'js', false]
 
+
+// [erro]
+
+
 /*
   06
 
@@ -139,3 +144,5 @@ const crazyArray = [true, 869, 'oi', 71, false, 83, '35', true, 397, 'js', false
 */
 
 const randomNumbers = [73, 4, 67, 10, 31, 58]
+
+// [erro]
