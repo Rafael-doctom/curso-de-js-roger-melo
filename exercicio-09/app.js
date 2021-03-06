@@ -63,7 +63,13 @@
   - Crie uma função que, ao ser invocada, retorna um boolean indicando se o item  
     passado por argumento existe no array (também passado por argumento).
 */
-c
+
+
+
+
+
+
+
 
 
 /*
@@ -91,13 +97,13 @@ c
     mas com o último item removido.
 */
 
-// const array = [1,2,5,,6,7]
+// const array = [1,2,5,6,7]
 // function teste (){
 //   return array
 // }
 
 // console.log(teste.length[2])
-// [erro]
+
 
 /*
   08
@@ -105,7 +111,7 @@ c
   - Crie uma função que retorna se o valor passado como argumento em sua  
     invocação é null.
 */
-
+[erro]
 /*
   09
 
